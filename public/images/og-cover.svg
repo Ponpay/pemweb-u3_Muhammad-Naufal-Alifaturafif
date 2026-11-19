@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Nusa News">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="45%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="85%" cy="10%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity=".22"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <circle cx="1050" cy="90" r="180" fill="none" stroke="#ffffff" stroke-opacity=".18" stroke-width="2"/>
+  <circle cx="1050" cy="90" r="260" fill="none" stroke="#ffffff" stroke-opacity=".10" stroke-width="2"/>
+
+  <g transform="translate(90,150)">
+    <rect width="88" height="88" rx="22" fill="#ffffff" fill-opacity=".16" stroke="#ffffff" stroke-opacity=".5" stroke-width="2"/>
+    <path d="M22 26h30a8 8 0 0 1 8 8v32H30a8 8 0 0 1-8-8V26Z" fill="none" stroke="#fff" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M34 40h16M34 50h16" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+
+  <text x="200" y="212" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff">Nusa News</text>
+  <text x="200" y="246" font-family="Segoe UI, Arial, sans-serif" font-size="20" letter-spacing="4" fill="#ffffff" fill-opacity=".75">PORTAL BERITA</text>
+
+  <text x="90" y="380" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="800" fill="#ffffff">Berita terkini,</text>
+  <text x="90" y="452" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="800" fill="#ffffff">dalam satu tempat.</text>
+
+  <text x="90" y="520" font-family="Segoe UI, Arial, sans-serif" font-size="26" fill="#ffffff" fill-opacity=".9">
+    Portal berita sederhana berbasis Laravel 12
+  </text>
+
+  <g transform="translate(90,560)">
+    <rect width="250" height="46" rx="23" fill="#ffffff" fill-opacity=".18" stroke="#ffffff" stroke-opacity=".45"/>
+    <text x="125" y="30" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="19" fill="#ffffff">
+      Praktikum Pemrograman Web
+    </text>
+  </g>
+</svg>

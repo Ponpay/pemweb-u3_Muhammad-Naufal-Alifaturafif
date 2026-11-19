@@ -2,10 +2,7 @@
     <nav class="nav" aria-label="Navigasi Utama">
         <a href="{{ route('home') }}" class="brand">
             <span class="mark">
-                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M4 5.5h9.5a3 3 0 0 1 3 3V19H7a3 3 0 0 1-3-3V5.5Z" stroke="#fff" stroke-width="1.7" stroke-linejoin="round"/>
-                    <path d="M8 9.5h5M8 13h5M16.5 8.5H18a2 2 0 0 1 2 2V19" stroke="#fff" stroke-width="1.7" stroke-linecap="round"/>
-                </svg>
+                <img src="{{ asset('images/logo.svg') }}" alt="" width="18" height="18">
             </span>
             <span class="wordmark">
                 Nusa News

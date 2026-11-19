@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@yield('title', 'Portal Berita') — Nusa News</title>
+    <link rel="icon" type="image/svg+xml" href="{{ asset('images/logo.svg') }}">
+    <meta name="description" content="Nusa News — portal berita sederhana berbasis Laravel.">
+    <meta property="og:image" content="{{ asset('images/og-cover.svg') }}">
     <style>
         :root {
             --bg: #f4f6fb;
@@ -109,14 +112,16 @@
             position: relative;
             width: 26px; height: 26px;
             border-radius: 8px;
-            background: linear-gradient(135deg, #6366f1 0%, #4f46e5 55%, #0ea5e9 100%);
-            box-shadow: 0 3px 9px rgba(79,70,229,.32);
+            background: transparent;
+            box-shadow: 0 3px 9px rgba(79,70,229,.28);
             display: inline-flex;
             align-items: center;
             justify-content: center;
             flex: none;
+            overflow: hidden;
         }
         .nav .brand .mark svg { width: 14px; height: 14px; display: block; }
+        .nav .brand .mark img { width: 18px; height: 18px; display: block; border-radius: 5px; }
         .nav .brand .mark::after {
             content: "";
             position: absolute; inset: 0;
